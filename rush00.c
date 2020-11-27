@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include "ft_putchar.c"
 
 
 void rush(int x, int y)
@@ -15,17 +16,17 @@ void rush(int x, int y)
 		{
             if (b == 0 || b == x - 1)
                 if (a == 0 || a == y - 1)
-    			    write(1, "o", 1);
+    			    ft_putchar("o"*);
                 else
-    			    write(1, "|", 1);
+    			    ft_putchar("|"*);
             else
                 if (a == 0 || a == y - 1)
-    			    write(1, "-", 1);
+    			    ft_putchar("-"*);
                 else
-                    write(1, " ", 1);
+                    ft_putchar(" "*);
 			b++;
 		}
-        write(1, "\n", 1);
+        ft_putchar("\n");
 		a++;
 	}
 

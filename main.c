@@ -1,6 +1,10 @@
-#include <stdio.h>
+#include <unistd.h>
+#include "rush00.c"
+//#include "ft_putchar.c"
 
-int main(void) {
-  printf("Hello World!\n");
-  return 0;
+
+int main()
+{
+	rush(5, -5);
+	return (0);
 }

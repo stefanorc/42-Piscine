@@ -1,4 +1,5 @@
-main
 *.out
 *.txt
 *.swp
+.git
+

@@ -115,16 +115,16 @@ int main()
 {
     int *arr;
     long int i;
-    int *hits;
+    //int *hits;
 
-    hits = malloc(10cd 000000000 * sizeof(int));
+    //hits = malloc(10000000000 * sizeof(int));
     arr = malloc(10 * 10 * sizeof(int));
 
     while (i < 10 * 10)
         arr[i++] = 0;
     i = 0;
-    while (i < 10000000000)
-        hits[i++] = 0;
+    //while (i < 10000000000)
+    //    hits[i++] = 0;
 
     q(arr, 0);
     return (0);

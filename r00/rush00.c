@@ -8,7 +8,7 @@ void rush(int x, int y)
 	int b;
 
 	a = 0;
-	
+
 	while (a < y)
 	{
 	    b = 0;
@@ -16,14 +16,14 @@ void rush(int x, int y)
 		{
             if (b == 0 || b == x - 1)
                 if (a == 0 || a == y - 1)
-    			    ft_putchar("o"*);
+    			    ft_putchar(&'o');
                 else
-    			    ft_putchar("|"*);
+    			    ft_putchar("|");
             else
                 if (a == 0 || a == y - 1)
-    			    ft_putchar("-"*);
+    			    ft_putchar("-");
                 else
-                    ft_putchar(" "*);
+                    ft_putchar(" ");
 			b++;
 		}
         ft_putchar("\n");
@@ -31,4 +31,4 @@ void rush(int x, int y)
 	}
 
 	return ;
-} 
+}
